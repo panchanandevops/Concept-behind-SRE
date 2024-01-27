@@ -7,9 +7,9 @@
   - [What is Site Reliability Engineering?](#what-is-site-reliability-engineering)
     - [Importance of SRE in Modern IT Landscape](#importance-of-sre-in-modern-it-landscape)
   - [Key Pillars of SRE](#key-pillars-of-sre)
-  - [Error Budgets:](#error-budgets)
-    - [How Do We Implement An Error Budgets:](#how-do-we-implement-an-error-budgets)
-    - [How Can We Spend Our Left Over Error Budgets:](#how-can-we-spend-our-left-over-error-budgets)
+  - [Error Budget:](#error-budget)
+    - [How Do We Implement An Error Budget:](#how-do-we-implement-an-error-budget)
+    - [How Can We Spend Our Left Over Error Budget:](#how-can-we-spend-our-left-over-error-budget)
   - [Service Level Indicators (SLIs):](#service-level-indicators-slis)
     - [Formula:](#formula)
     - [How To Choose A Good SLI?](#how-to-choose-a-good-sli)
@@ -46,15 +46,15 @@ Site Reliability Engineering (SRE) is a discipline that merges software engineer
 
 
 ## Key Pillars of SRE
-The foundational elements of SRE, encompassing Service Level Indicators (SLIs), Objectives (SLOs), and Agreements (SLAs), along with the crucial concept of Error Budgets, form the key pillars that drive reliability and performance in modern IT operations.
+The foundational elements of SRE, encompassing Service Level Indicators (SLIs), Objectives (SLOs), and Agreements (SLAs), along with the crucial concept of Error Budget, form the key pillars that drive reliability and performance in modern IT operations.
 
 Lets understand them one by one.
 
-## Error Budgets:
+## Error Budget:
 
-Error Budgets represent the permissible margin of errors or disruptions in a system's reliability over a specific timeframe. SREs use Error Budgets to strike a balance between innovation and reliability, allowing a controlled level of incidents while maintaining service performance.
+Error Budget represent the permissible margin of errors or disruptions in a system's reliability over a specific time frame. SREs use Error Budget to strike a balance between innovation and reliability, allowing a controlled level of incidents while maintaining service performance.
 
-### How Do We Implement An Error Budgets: 
+### How Do We Implement An Error Budget: 
 
 - Set clear reliability targets and acceptable levels of errors or downtime.
 - Implement robust monitoring systems for real-time performance tracking and alerts for approaching Error Budget depletion.
@@ -63,7 +63,7 @@ Error Budgets represent the permissible margin of errors or disruptions in a sys
 - Conduct regular reviews to assess the impact of Error Budget utilization and learn from incidents, iterating to improve processes and infrastructure.
 
 
-### How Can We Spend Our Left Over Error Budgets:
+### How Can We Spend Our Left Over Error Budget:
 - Release new features.
 - Expected system changes.
 - Inhabitable failure in hardwares, networks, etc.
