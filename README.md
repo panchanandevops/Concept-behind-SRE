@@ -59,7 +59,7 @@ Error Budget represent the permissible margin of errors or disruptions in a syst
 - Set clear reliability targets and acceptable levels of errors or downtime.
 - Implement robust monitoring systems for real-time performance tracking and alerts for approaching Error Budget depletion.
 - Encourage cross-team collaboration between development and operations.
-- Continuously monitor service performance and make adjustments to stay within the allocated Error Budget, slowing down changes when necessary.
+- Continuously monitor service performance and make adjustments to stay within the allocated Error Budget, slowing down deployment when necessary.
 - Conduct regular reviews to assess the impact of Error Budget utilization and learn from incidents, iterating to improve processes and infrastructure.
 
 
@@ -228,7 +228,7 @@ Here are some real-world examples of **Service Level Objectives (SLOs)** based o
 7. **Online Learning Platform - Uptime:**
    - **SLI:** Percentage of time the platform is operational.
    - **SLO:** Achieve an uptime of **99.9%** throughout the **academic year**.
-   - **Alert:** Issue an alert, notify the **operations team**, and engage incident response if the platform's uptime drops below **99.8%** within a **24-hour period**.
+   - **Alert:** Issue an alert, notify the **operations team**, and engage incident response if the platform's uptime drops below **99.5%** within a **24-hour period**.
 
 8. **Telecommunications Network - Call Drop Rate:**
    - **SLI:** Percentage of completed phone calls without dropping.
@@ -245,7 +245,7 @@ SLAs establish a contractual framework, specifying the **minimum standards** tha
 ### Best Practices:
 - Set SLOs **slightly** **above** the contracted SLA to provide a buffer, avoiding user dissatisfaction.
   
-- Ensure SLOs **never** fall **below** the SLA, maintaining a commitment to agreed-upon service levels.
+- Ensure SLIs **should not** fall **below** the SLA, maintaining a commitment to agreed-upon service levels.
 
 
 ## Final Thoughts
